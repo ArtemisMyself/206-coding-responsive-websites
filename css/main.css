@@ -61,24 +61,31 @@ footer {
 @media (min-width: 768px) {
   header {
     background-color: lightgrey;
+    
   }
 
   #column-1 {
     background-color: lightyellow;
+   
   }
 
   #column-2 {
     background-color: lightblue;
+    
   }
 
   #column-3 {
     background-color: pink;
+    
   }
 
   footer {
     background-color: lightgreen;
   }
   
+  .col-3 {
+    width: 33.3%;
+  }
 }
 
 
@@ -86,22 +93,33 @@ footer {
 @media (min-width: 1200px) {
   header {
     background-color: grey;
+    
   }
 
   #column-1 {
     background-color: lightgrey;
+   
   }
 
   #column-2 {
     background-color: black;
+    
   }
 
   #column-3 {
     background-color: lightgrey;
+    
+  }
+
+  .col-3 {
+    
   }
 
   footer {
     background-color: grey;
   }
    /*---------test-------------*/
+}
+
+
 }
